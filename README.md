@@ -4,8 +4,8 @@ BharaMind AI is a full-stack AI-powered conversational assistant built using Fas
 
 The application enables users to interact with AI, maintain multiple chat sessions, upload files for analysis, and retrieve persistent chat history through an intuitive web interface.
 
----
 ## Features
+---
 ✅ AI-powered conversations
 
 ✅ Multiple chat sessions
@@ -26,27 +26,21 @@ The application enables users to interact with AI, maintain multiple chat sessio
 
 ---
 # Technology Stack
----
 ### Frontend
----
 - HTML
 - CSS
 - JavaScript
 - Marked.js
 ### Backend
----
 - Python
 - FastAPI
 ### Database
----
 - SQLite
 - SQLAlchemy
 ### AI Integration
----
 - OpenAI Python SDK
 - OpenAI-Compatible Generative AI Models
 ### Configuration
----
 - Python Dotenv
 ---
 # Project Architecture
@@ -86,13 +80,12 @@ The application enables users to interact with AI, maintain multiple chat sessio
 ```
 ---
 # Application Workflow
----
 # Step 1: Create Chat
----
 Example:
 ```
 Explain FastAPI
 ```
+---
 # Step 2: Request Processing
 ```
 {
@@ -100,30 +93,33 @@ Explain FastAPI
   "message":"Explain FastAPI"
 }
 ```
-# Step 3: Retrieve Context
 ---
+# Step 3: Retrieve Context
 Existing chat history is loaded from SQLite.
 
-# Step 4: AI Processing
 ---
+
+# Step 4: AI Processing
 User prompt and uploaded file content (if available) are sent to the configured AI model.
 
-# Step 5: Response Generation
 ---
+
+# Step 5: Response Generation
 The AI model generates a response.
 
-# Step 6: Save Conversation
 ---
+
+# Step 6: Save Conversation
 Both user and AI messages are stored in the database.
 
-# Step 7: Display Response
 ---
+
+# Step 7: Display Response
 Response is rendered using Markdown formatting in the chat interface.
 
 ---
 
 # File Upload Workflow
----
 1. User uploads a file.
 2. Backend reads file content.
 3. Content is added to AI prompt.
@@ -131,7 +127,6 @@ Response is rendered using Markdown formatting in the chat interface.
 5. Response is displayed to the user.
 ---
 # Folder Structure
----
 ```
 BharaMind-AI/
 │
@@ -155,7 +150,6 @@ BharaMind-AI/
 ```
 ---
 # Configure Environment Variables
----
 Create a .env file in the root directory.
 ```
 GENAI_API_KEY=your_api_key
@@ -173,7 +167,6 @@ GENAI_MODEL=your_model_name
 ---
 
 # Run Application
----
 # Start Backend
 ```
 uvicorn main:app --reload
@@ -190,33 +183,27 @@ python -m http.server 5500
 ```
 http://localhost:5500/
 ```
+---
 # Screenshots
----
 ### Home Page
----
 BharaMind AI landing page with chat sidebar and conversation area.
 <img width="940" height="552" alt="image" src="https://github.com/user-attachments/assets/6ec34273-3d37-452a-b496-f0425959c36e" />
 
 ### Chat Interface
----
 User and AI conversation window.
 <img width="940" height="551" alt="image" src="https://github.com/user-attachments/assets/749e610e-570f-4004-9dca-7c7087de3ce1" />
 
 ### File Upload
----
 File upload and analysis feature.
 <img width="941" height="550" alt="image" src="https://github.com/user-attachments/assets/47103c4e-8252-4259-a4b5-5a466055abf4" />
 
 ### Light Mode
----
 Light-themed user interface.
 <img width="940" height="551" alt="image" src="https://github.com/user-attachments/assets/7a08ca2e-ef33-4db9-8b0a-da147550bcba" />
 
 ### Chat History
----
 Multiple chat management and retrieval.
 <img width="940" height="552" alt="image" src="https://github.com/user-attachments/assets/48ec4c8f-4db9-4a82-a3e8-27d0d2d9e5dc" />
 
 # Author
----
 ## B Bharath Kumar Reddy
