@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>BharaMind AI</title>
+        <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+
+        
+
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar">
+
+        <div class="logo">
+
+            🧠 BharaMind AI
+
+        </div>
+
+        <button id="newChat">
+            + New Chat
+        </button>
+
+        <div class="sidebar-title">
+            Recent Chats
+        </div>
+
+        <div
+            class="chat-history"
+            id="chatList"
+        >
+        </div>
+
+    </div>
+
+    <!-- MAIN AREA -->
+
+    <div class="main">
+
+        <!-- HEADER -->
+
+        <div class="header">
+
+            <h2>
+                BharaMind AI
+            </h2>
+
+            <button id="themeBtn">
+                🌙
+            </button>
+
+        </div>
+
+        <!-- CHAT -->
+
+        <div id="chatContainer">
+
+            <div class="welcome">
+
+                <h1>
+                    Welcome to BharaMind AI 👋
+                </h1>
+
+                <p>
+                    Ask questions, upload files,
+                    generate code, analyze documents
+                    and more.
+                </p>
+
+            </div>
+
+        </div>
+
+       <!-- INPUT -->
+
+<div class="input-area">
+
+    <input
+        type="file"
+        id="fileUpload"
+        hidden
+    >
+
+    <div class="input-wrapper">
+
+        <button id="fileBtn">
+            📎
+        </button>
+
+        <button id="voiceBtn">
+            🎤
+        </button>
+
+        <textarea
+            id="prompt"
+            rows="1"
+            placeholder="Message BharaMind AI..."
+        ></textarea>
+
+        <button id="sendBtn">
+            ➤
+        </button>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <script src="../static/script.js"></script>
+
+</body>
+</html>
