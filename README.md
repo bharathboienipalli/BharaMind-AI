@@ -193,30 +193,35 @@ http://localhost:5500/
 ## Home Page
 
 BharaMind AI landing page with chat sidebar and conversation area.
+
 <img width="940" height="552" alt="image" src="https://github.com/user-attachments/assets/6ec34273-3d37-452a-b496-f0425959c36e" />
 
 ---
 ## Chat Interface
 
 User and AI conversation window.
+
 <img width="940" height="551" alt="image" src="https://github.com/user-attachments/assets/749e610e-570f-4004-9dca-7c7087de3ce1" />
 
 ---
 ## File Upload
 
 File upload and analysis feature.
+
 <img width="941" height="550" alt="image" src="https://github.com/user-attachments/assets/47103c4e-8252-4259-a4b5-5a466055abf4" />
 
 ---
 ## Light Mode
 
 Light-themed user interface.
+
 <img width="940" height="551" alt="image" src="https://github.com/user-attachments/assets/7a08ca2e-ef33-4db9-8b0a-da147550bcba" />
 
 ---
 ## Chat History
 
 Multiple chat management and retrieval.
+
 <img width="940" height="552" alt="image" src="https://github.com/user-attachments/assets/48ec4c8f-4db9-4a82-a3e8-27d0d2d9e5dc" />
 
 # Author
